@@ -21,7 +21,7 @@ from PIL import Image, ImageTk
 
 # Variabili globali
 percorso_video = None
-esecuzione = False  # FIX: inizializzata a livello di modulo
+esecuzione = False
 
 '''
 Funzione scegli_file()
