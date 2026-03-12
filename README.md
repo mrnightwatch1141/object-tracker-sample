@@ -1,5 +1,6 @@
 # object-tracker-sample
 A simple object tracker using YOLO and opencv-python.
+![example](example.png "Title")
 
 ## References
 - [YOLO](https://huggingface.co/Ultralytics/YOLOv8/blob/main/yolov8n.pt)
