@@ -59,6 +59,9 @@ def monitor_traffico():
     n_camion          = 0
     n_persone         = 0
 
+    # Questo loop legge continuamente ogni frame della cattura video
+    # e viene ridimensionato a 600x350 pixel anche per ottimizzare la
+    # performance per poi essere processato dal modello YOLO
     while esecuzione:
         ret, frame = cattura.read()
 
