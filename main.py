@@ -50,6 +50,7 @@ def monitor_traffico():
     tracker = sv.ByteTrack(lost_track_buffer=60)
 
     # Set Classi di interesse (nomi COCO usati da YOLOv8)
+    # gli elementi di un set sono immutabili, non ordinati e non indicizzabili
     CLASSI_OGGETTI = {"car", "truck", "bus", "person"}
 
     # Conteggio veicoli
